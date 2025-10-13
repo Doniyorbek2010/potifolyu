@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.section_title{
+    text-align: center;
+    font-size: 35px;
+    text-decoration-line: underline;
+    margin: 40px 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav h2 {
+   margin: 10px 0px;
+   font-size: 30px;
+    color: #222222;
+}
+.nav_link{
+    font-size: 26px;
+    color: #222222;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myname h2{
+    align-items: center;
+    font-size: 40px;
+    color: #333333;
+}
+.myname h1{
+    font-size: 70px;
+    color: #222222;
+    margin: 10px 0px 25px 0px;
+}
+.myname p{
+    color: #555555;
+}
+.myname button{
+    color: FFFFFF;
+    padding: 10px 35px ;
+    border: none;
+    border-radius:6px ;
+    background-color: #A9A9A9;
+    margin: 20px 0px;
+}
+.linkme i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-github {
+    margin: 0px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_me{
+    width: 450px;
+    
+}
+.about_me h2{
+    font-size: 50px;
+    color: #222222;
+}
+.about_me p{
+    font-size: 35px;
+    margin-top: 20px;
+    color: #333333;
+}
+
+/* SKILLS */
+.skillss{
+    display: flex;
+    justify-content: space-between;
+    align-items: c;
+}
+.skills_data{
+    width: 490px;
+}
+.skills_data h4{
+    font-size: 35px;
+    color: #222222;
+}
+.skills_data > p{
+    font-size: 30px;
+    color: #333333;
+    margin: 15px 0px;
+}
+.skill{
+    background-color: beige;
+    margin: 15px 0px;
+}
+.skill_name{
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.line-box{
+    width: 100%;
+    height: 15px;
+    background-color: #a7a7a7;
+}
+.line{
+    height: 100%;
+    background-color: #222222;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 70%;
+}
+.js{
+    width: 0%;
+}
+/* input */
+.contact_container{
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact_form input{
+    width: 100%;
+    margin: 10px 0px;
+    height: 25px;
+}
+.contact_form textarea{
+    width: 100%;
+    margin: 10px 0px;
+    height: 70px;
+}
+.contact_form button{
+    width: 30%;
+    margin: 10px 0px;
+    padding: 10px 26px;
+    background-color #A9A9A9;
+}
+/* foooter */
+footer{
+    background-color: black;
+    color: #FFFFFF;
+    align-items: center;
+}
+.footer i {
+    margin: 10px 10px 15px 0px;
+}
+.footer h3{
+    font-size: 15px;
+    margin: 15px 0px 10px 0px;
+}
+.footer{
+    text-align: center;
+    padding: 20px 0px;
+}
+.footer h4{
+    font-size: 18px;
+    margin: 15px 0px 10px 0px;
+}
