@@ -181,3 +181,60 @@ footer{
     font-size: 18px;
     margin: 15px 0px 10px 0px;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    .hero, 
+    .about, 
+    .skillss {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .myname h1 {
+        font-size: 45px;
+    }
+
+    .myname h2 {
+        font-size: 30px;
+    }
+
+    .about_me p {
+        font-size: 18px;
+    }
+
+    .skills_data > p {
+        font-size: 18px;
+    }
+
+    .contact_form button {
+        width: 60%;
+    }
+}
+
+/* Extra Small (phones < 480px) */
+@media (max-width: 480px) {
+    .myname h1 {
+        font-size: 35px;
+    }
+
+    .myname h2 {
+        font-size: 25px;
+    }
+
+    .nav_link {
+        font-size: 18px;
+    }
+
+    .about_me h2 {
+        font-size: 28px;
+    }
+}
